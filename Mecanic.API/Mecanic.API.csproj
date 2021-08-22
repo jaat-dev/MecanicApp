@@ -1,0 +1,76 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Views\Account\ChangePassword.cshtml" />
+    <None Include="Views\Account\ChangeUser.cshtml" />
+    <None Include="Views\Account\ConfirmEmail.cshtml" />
+    <None Include="Views\Account\Login.cshtml" />
+    <None Include="Views\Account\NotAuthorized.cshtml" />
+    <None Include="Views\Account\RecoverPassword.cshtml" />
+    <None Include="Views\Account\Register.cshtml" />
+    <None Include="Views\Account\ResetPassword.cshtml" />
+    <None Include="Views\Account\_User.cshtml" />
+    <None Include="Views\Brands\Create.cshtml" />
+    <None Include="Views\Brands\Edit.cshtml" />
+    <None Include="Views\Brands\Index.cshtml" />
+    <None Include="Views\Brands\_Brand.cshtml" />
+    <None Include="Views\DocumentTypes\Create.cshtml" />
+    <None Include="Views\DocumentTypes\Edit.cshtml" />
+    <None Include="Views\DocumentTypes\Index.cshtml" />
+    <None Include="Views\DocumentTypes\_DocumentType.cshtml" />
+    <None Include="Views\Home\Error404.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Procedures\Create.cshtml" />
+    <None Include="Views\Procedures\Edit.cshtml" />
+    <None Include="Views\Procedures\Index.cshtml" />
+    <None Include="Views\Procedures\_Procedure.cshtml" />
+    <None Include="Views\Users\AddDetail.cshtml" />
+    <None Include="Views\Users\AddHistory.cshtml" />
+    <None Include="Views\Users\AddVehicle.cshtml" />
+    <None Include="Views\Users\AddVehicleImage.cshtml" />
+    <None Include="Views\Users\Create.cshtml" />
+    <None Include="Views\Users\Details.cshtml" />
+    <None Include="Views\Users\DetailsHistory.cshtml" />
+    <None Include="Views\Users\DetailsVehicle.cshtml" />
+    <None Include="Views\Users\Edit.cshtml" />
+    <None Include="Views\Users\EditDetail.cshtml" />
+    <None Include="Views\Users\EditHistory.cshtml" />
+    <None Include="Views\Users\EditVehicle.cshtml" />
+    <None Include="Views\Users\Index.cshtml" />
+    <None Include="Views\Users\_Detail.cshtml" />
+    <None Include="Views\Users\_History.cshtml" />
+    <None Include="Views\Users\_User.cshtml" />
+    <None Include="Views\Users\_Vehicle.cshtml" />
+    <None Include="Views\VehicleTypes\Create.cshtml" />
+    <None Include="Views\VehicleTypes\Edit.cshtml" />
+    <None Include="Views\VehicleTypes\Index.cshtml" />
+    <None Include="Views\VehicleTypes\_VehicleType.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.9.1" />
+    <PackageReference Include="Azure.Storage.Files.Shares" Version="12.7.0" />
+    <PackageReference Include="Azure.Storage.Queues" Version="12.7.0" />
+    <PackageReference Include="MailKit" Version="2.15.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.9" />
+    <PackageReference Include="Microsoft.Azure.Storage.Blob" Version="11.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mecanic.Common\Mecanic.Common.csproj" />
+  </ItemGroup>
+
+</Project>
